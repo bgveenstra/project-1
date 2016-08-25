@@ -4,27 +4,22 @@
 
 **Read this entire document before writing a line of code.**
 
-### Contents
-
-* **[Overview](#overview)**
-* **[Essential Skills](#essential-skills)**
-* **[Timeline](#timeline)**
-* **[Technical Requirements](#technical-requirements)**
-* **[Deliverables](#deliverables)**
-* **[Getting Started](#getting-started)**
-* **[Game Suggestions](#game-suggestions)**
-* **[Extra Challenge Ideas](#extra-challenge-ideas)**
-* **[Resources](#resources)**
-* **[Project Feedback](#project-feedback)**
-
-
 ### Overview
 
 Let's start out with something fun - **a game!**
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – since you've already gotten your feet wet with Tic Tac Toe and a Memory game, it's up to you to come up with a fun and interesting game to build.
+Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – since you've already gotten your feet wet with Tic Tac Toe and a Memory game, it's your turn to plan and implement a game from scratch.
 
 **You will be working individually for this project**, but we'll be guiding you as you get started. Show us what you've got!
+
+
+---
+
+### Timeline
+
+* **Assigned:** Friday, August 26th
+* **Due:** Monday, August 29th at 9:00AM
+
 
 ---
 
@@ -37,13 +32,6 @@ By the time you submit this project, you will have leveled up in many big themes
 * **JavaScript Fundamentals**: Work with objects and events, while strategically solving problems and resolving errors.
 * **Front-End**: Work on HTML structure, CSS styles, and perhaps even animating elements within a browser. Respond to actions your users take and the data they input into the browser.
 * **Documentation**: Document your code and your GitHub repository so others understand what you've built.
-
----
-
-## Timeline
-
-* **Assigned:** Friday, August 26th
-* **Due:** Monday, August 29th at 9:00AM
 
 ---
 
@@ -86,15 +74,20 @@ Your app must:
 
 ---
 
-### Game Suggestions
+### Game Types
 
-#### Racing Game
+####Racing Game
 
-Build a **Racing Game**, where two players can use the keyboard to move their "cars" across the browser window.
+**We suggest and expect that most of you will build a racing game**. Two or more players should be able to use the keyboard to move their "cars" across the browser window.
+
+<img src="https://media.giphy.com/media/mHChlbqGMndYY/giphy.gif" width="60%">
 
 
-#### Something Else!
-Make sure you get the approval of an instructor if you choose anything else.
+#### Something Else
+
+If you're comfortable with the technologies we're using and you have a fully-fledged plan, you can build a substantially different game. Definitely only build a game that you are familiar with. Make sure you get your plan approved by an instructor if you want to build a non-racing game. 
+
+<details><summary>Click this paragraph to see other potentail game ideas.</summary>
 
 ##### Trivia
 Test your wits & knowledge with whatever-the-heck you care about. The player can guess answers and have the computer validate them!
@@ -106,10 +99,21 @@ The player types letters that appear one-by-one on the screen. They score points
 The player bets money (or points) on guessing which card the computer will deal next. The computer deals randomly.
 
 ##### Flash Cards
+
 Create a deck of flash cards that have prompts on one side and answers on the other.  After seeing each answer, a player can choose to either keep the card in the deck for more practice or decide they remember it well and remove it from the deck. Once the player has remembered all cards in the deck, they get a win screen.
 
+
 ##### Battleship
-The player can challenge the computer, each taking turns trying to sink the other's ships. The one who sinks the other's ships first wins!
+
+The player can challenge the computer, each taking turns trying to sink the other's ships. The one who sinks the other's ships first wins! The game board should show the player's fleet with hit trackers. It should also show a map of where the player's guesses have hit and missed.
+
+
+**Hints**
+* Start with just one size of ship.  
+* Start by building a one-dimensional battleship game.  
+* Don't let the player decide where to place their ships, to start.
+
+</details>
 
 ---
 
